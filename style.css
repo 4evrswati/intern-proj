@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+  }
+  
+.section-m1 {
+margin: 40px 0;
+}
+
+#login{
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(https://app.incheq.com.au/Overlay.60e1375d855ede22.svg);
+    background-color: #522a5d;
+    width: 40vw;
+}
+
+.right {
+    min-width: 60vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 40px;
+}
+
+.right h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #899097;
+}
+
+form {
+    width: 70%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.form-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-input{
+    height: 50px;
+    padding: 5px 10px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: #ced4da;
+}
+
+.form-input:focus {
+    border: 2px solid 673474 !important;
+}
+
+.form-group a{
+    text-align: end;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: #673474;
+    /* margin-bottom: 5px; */
+}
+
+.form-button {
+    width: 49%;
+    height: 55px;
+    background: transparent;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover {
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+.signup {
+    border: 2px solid #ced4da;
+    color: #673474;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login {
+    background-color: #673474;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Sign-up Page */
+.signup-page {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    color: black;
+}
+
+.signup-page h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+    margin: 45px 0 20px;
+    text-shadow: 2px 2px #899097;
+}
+
+.signup-page p {
+    margin-bottom: 35px;
+    color: #899097;
+    font-size: 20px;
+}
+
+.form-part {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #899097;
+    border-radius: 5px;
+    padding: 45px 20px;
+    margin: 25px 25px 35px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+span{
+    color: #243DAE;
+    cursor: pointer;
+}
+#country-state {
+    background: none;
+}
+
+.login-div p{
+    color: black;
+    margin-bottom: 100px;
+}
+
+.login-div p a {
+    color: #673474;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* HOME PAGE */
+#home {
+    background-color: hsl(0, 1%, 98%);
+}
+
+#hero {
+background-color: #673474;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#hero p{
+color: #fff;
+font-size: 20px;
+padding: 45px;
+width: 70%;
+line-height: 2;
+text-align: center;
+}
+
+#hero h1{
+color: #fff;
+font-size: 75px;
+padding-top: 100px;
+text-align: center;
+}
+
+#hero button{
+background-color: #e34db7;
+color: #ffffff;
+border: 0;
+border-radius: 10px;
+cursor: pointer;
+font-weight: 700;
+font-size: 20px;
+width: auto;
+padding: 10px 25px;
+}
+
+#hero a {
+color: #fff;
+margin: 20px;
+font-weight: 700;
+margin-bottom: 60px;
+}
+
+#intro {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#intro h3{
+width: 70%;
+color: #575756;
+font-size: 40px;
+font-weight: bold;
+letter-spacing: 1.25px;
+text-align: center;
+margin-bottom: 25px;
+}
+
+#intro img{
+width: 45%;
+}
+
+#feature{
+    text-align: center;
+}
+
+#features h4, #benefits h4{
+    text-align: center;
+    color: #575756;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+#features .feature {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#features .feature-container{
+    width: 23%;
+    min-width: 250px;
+    padding: 20px 25px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#features .feature-container:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06); 
+  }
+
+  #features .feature-container h5{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #testimonials{
+    background-color: #dc95ef;
+    color: #fff;
+    text-align: center;
+  }
+
+  #testimonials h2{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+.carousel-item{
+padding: 7% 15%;
+}
+
+#footer {
+text-align: center;
+}
+
+.footer-icon{
+margin: 20px 10px;
+}
+
+.navbar {
+display: flex;
+justify-content: space-around;
+}
+
+  @media (max-width: 770px) {
+    .left {
+        display: none !important;
+    }
+    .right {
+        min-width: 100vw;
+    }
+    #intro h3 {
+        width: 95%;
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 500px) {
+    .right h2, .signup-page h2, #hero h1, #intro h3{
+        font-size: 27px;
+    }
+    #intro h3 {
+        width: 95%;
+    }
+    #intrro img {
+        width: 75%;
+    }
+    .signup-page p, #hero p {
+        font-size: 15px;
+    }
+    #testimonials h2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .form-input {
+        height: 40px;
+        font-size: 15px;
+    }
+    .form-group a{
+        margin-bottom: 0;
+    }
+    .form-button{
+        width: 100%;
+        margin: 5px;
+        height: 40px;
+    }
+    #hero button {
+        width: 50%;
+        font-size: 15px;
+    }
+    #testimonials h2 {
+        font-size: 15px;
+    }
+}

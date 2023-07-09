@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup Page</title>
+</head>
+<body class="signup-page">
+    <h2>Create an account</h2>
+    <p>Enter you personal details below</p>
+    <div class="form-part">
+        <form  action="/" method="post">
+            <div class="form-group">
+                <label class="form-label" for="company-name">Company Name</label>
+                <input class="form-input" type="text" id="company-name" placeholder="Company Name" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="employee-number">Number of Employees</label>
+                <input class="form-input" type="number" id="employee-number" placeholder="Number of Employees" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="contact-name">Contact Name</label>
+                <input class="form-input" type="text" id="contact-name" placeholder="Contact Name" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="email">Email Address</label>
+                <input class="form-input" type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="password">Create Password</label>
+                <input class="form-input" type="password" id="password" placeholder="********" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="mobile">Mobile</label>
+                <input class="form-input" type="number" id="mobile" placeholder="Mobile Number" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="roles">Job-Roles</label>
+                <input class="form-input" type="text" id="roles" placeholder="Job Roles" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="country-state">State</label>
+                <select class="form-input" id="country-state" name="country-state">
+                    <option value="">Select state</option>
+                    <option value="AN">Andaman and Nicobar Islands</option>
+                    <option value="AP">Andhra Pradesh</option>
+                    <option value="AR">Arunachal Pradesh</option>
+                    <option value="AS">Assam</option>
+                    <option value="BR">Bihar</option>
+                    <option value="CH">Chandigarh</option>
+                    <option value="CT">Chhattisgarh</option>
+                    <option value="DN">Dadra and Nagar Haveli</option>
+                    <option value="DD">Daman and Diu</option>
+                    <option value="DL">Delhi</option>
+                    <option value="GA">Goa</option>
+                    <option value="GJ">Gujarat</option>
+                    <option value="HR">Haryana</option>
+                    <option value="HP">Himachal Pradesh</option>
+                    <option value="JK">Jammu and Kashmir</option>
+                    <option value="JH">Jharkhand</option>
+                    <option value="KA">Karnataka</option>
+                    <option value="KL">Kerala</option>
+                    <option value="LA">Ladakh</option>
+                    <option value="LD">Lakshadweep</option>
+                    <option value="MP">Madhya Pradesh</option>
+                    <option value="MH">Maharashtra</option>
+                    <option value="MN">Manipur</option>
+                    <option value="ML">Meghalaya</option>
+                    <option value="MZ">Mizoram</option>
+                    <option value="NL">Nagaland</option>
+                    <option value="OR">Odisha</option>
+                    <option value="PY">Puducherry</option>
+                    <option value="PB">Punjab</option>
+                    <option value="RJ">Rajasthan</option>
+                    <option value="SK">Sikkim</option>
+                    <option value="TN">Tamil Nadu</option>
+                    <option value="TG">Telangana</option>
+                    <option value="TR">Tripura</option>
+                    <option value="UP">Uttar Pradesh</option>
+                    <option value="UT">Uttarakhand</option>
+                    <option value="WB">West Bengal</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="address">Address</label>
+                <input class="form-input" type="text" id="address" placeholder="Address" required>
+            </div>
+            <div class="form-group" style="flex-direction: row;">
+                <input type="checkbox" id="myCheckbox" style="margin-right: 15px;">
+                <label for="myCheckbox">I agree to the <span>Terms of Service</span> and <span>Privacy Policy</span> .</label>
+            </div>
+            <button class="login form-button" type="submit">Sign up</button>
+        </form>
+    </div>
+    <div class="login-div">
+        <p>Already have an account ? <a href="/login.html">Login</a> </p>
+        
+    </div>
+</body>
+</html>
